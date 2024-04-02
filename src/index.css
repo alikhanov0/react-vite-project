@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(197, 197, 197);
+    margin: 0;
+}
+
+.root {
+    padding: 0;
+}
+
+header {
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    justify-content: flex-start;
+}
+
+li {
+    width: 50%;
+    border-radius: 12%;
+    border: solid black;
+    list-style: none;
+    margin: auto;
+    margin-bottom: 5%;
+}
